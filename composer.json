@@ -1,0 +1,22 @@
+{
+    "name": "foxkit/blog",
+    "type": "foxkit-extension",
+    "version": "0.1.0",
+    "title": "Blog",
+    "description": "一个内置评论系统的博客扩展",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "FoxKit",
+            "email": "www@cnguu.cn",
+            "homepage": "https://github.com/foxkit-cn/foxkit-extension-blog"
+        }
+    ],
+    "extra": {
+        "icon": "icon.svg",
+        "scripts": "scripts.php"
+    },
+    "archive": {
+        "exclude": ["node_modules", "!/app"]
+    }
+}

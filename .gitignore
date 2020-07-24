@@ -3,6 +3,7 @@
 # dependencies
 node_modules/
 **/*/node_modules
+vendor/
 
 # misc
 .DS_Store
@@ -28,3 +29,4 @@ yarn.lock
 composer.lock
 
 **/app/bundle/**/*.js
+*.zip
